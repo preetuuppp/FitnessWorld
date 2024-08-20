@@ -26,11 +26,12 @@ const Navbar = () => {
                                     {name}
                                 </NavLink>
                             </li>
-                        );
+                        )
                     })}
                 </ul>
                 <button className="nav_toggle_btn" onClick={()=>setIsShow(!isShow)}>
                     {isShow ? <MdOutlineClose /> : <FaBars />}
+
                 </button>
             </div>
         </nav>
